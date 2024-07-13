@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docs", "_Docs", "{B93A1E4E-8A02-4A57-8160-28CEF197D0DE}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deterministic.Guid.Uuid5", "Deterministic.Guid.Uuid5\Deterministic.Guid.Uuid5.csproj", "{98DE0B83-5728-4339-9627-DC994A167767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98DE0B83-5728-4339-9627-DC994A167767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DE0B83-5728-4339-9627-DC994A167767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DE0B83-5728-4339-9627-DC994A167767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DE0B83-5728-4339-9627-DC994A167767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
