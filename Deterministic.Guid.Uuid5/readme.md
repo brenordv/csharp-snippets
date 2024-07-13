@@ -25,3 +25,14 @@ which will generate an output like this:
 |--------|----------------|----------:|---------:|---------:|----------:|----------:|-----:|------------:|
 | UuidV4 | 1000000        |  61.34 ms | 0.612 ms | 0.511 ms |  62.05 ms |  61.45 ms |    1 |        50 B |
 | UuidV5 | 1000000        | 380.40 ms | 6.388 ms | 5.975 ms | 390.37 ms | 378.38 ms |    2 | 246390000 B |
+
+## Example Usage
+```csharp
+var userId = 1234;
+var namespaceId = Guid.Parse("6ba7b810-9dad-11d1-80b4-00c04fd430c8");
+
+var guid1 = Uuid5.NewGuid(namespaceId, userId);
+var guid2 = Uuid5.NewGuid(namespaceId, userId);
+
+// guid1 and guid2 will be the same
+``` 
