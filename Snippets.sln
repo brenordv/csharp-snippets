@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Docs", "_Docs", "{B93A1E4E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deterministic.Guid.Uuid5", "Deterministic.Guid.Uuid5\Deterministic.Guid.Uuid5.csproj", "{98DE0B83-5728-4339-9627-DC994A167767}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null.Conditional.Generated.Code", "Null.Conditional.Generated.Code\Null.Conditional.Generated.Code.csproj", "{7F19200F-8AFA-4D11-96F9-3E0C2E6EEBD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +19,9 @@ Global
 		{98DE0B83-5728-4339-9627-DC994A167767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DE0B83-5728-4339-9627-DC994A167767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DE0B83-5728-4339-9627-DC994A167767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F19200F-8AFA-4D11-96F9-3E0C2E6EEBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F19200F-8AFA-4D11-96F9-3E0C2E6EEBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F19200F-8AFA-4D11-96F9-3E0C2E6EEBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F19200F-8AFA-4D11-96F9-3E0C2E6EEBD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
