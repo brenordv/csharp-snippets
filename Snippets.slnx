@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/_Docs/">
+    <File Path="readme.md" />
+  </Folder>
+  <Project Path="Deterministic.Guid.Uuid5/Deterministic.Guid.Uuid5.csproj" />
+  <Project Path="IntOperationsForEnum/IntOperationsForEnum.csproj" />
+  <Project Path="Multiple.Enumeration/Multiple.Enumeration.csproj" />
+  <Project Path="Null.Conditional.Generated.Code/Null.Conditional.Generated.Code.csproj" />
+</Solution>
